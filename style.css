@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma;
+}
+
+body {
+    background-image: url(/img/nave.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+   
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding:  35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-header {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 3.5em;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+
+}
+
+.navbar li {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.btncar {
+    width: auto;
+    padding: 4px;
+    border-radius: 6px;
+    font-weight: bold;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+.btncar:hover {
+    background-color: #ffffff41;
+    color: red;
+}
+
+.product-section {
+    width: 85%;
+    margin: auto;
+}
+
+.model-header {
+    font-family: "Italianno";
+    font-size: 2em;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.btn-catalog {
+    width: 200px;
+    padding: 10px 0;
+    margin: 20px 0;
+    border-radius: 25px;
+    border: 1px solid #8d1820ea;
+    font-weight: bold;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-catalog:hover {
+    background-color: #ffffff36;
+    color: rgb(238, 18, 18);
+}
+
+footer {
+    width: 85%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: smaller;
+}
+
+.link {
+    text-decoration: none;
+    color: pink;
+}
+
+
